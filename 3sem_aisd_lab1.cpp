@@ -6,7 +6,7 @@ using namespace std;
 
 
 int main() {
-	RBTree <string, float> bst;
+	Map <string, float> bst;
 	bst.insert("A", 38.5);
 	bst.insert("B", 0.6);
 	bst.insert("C", 1);
