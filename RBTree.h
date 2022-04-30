@@ -7,7 +7,7 @@
 #include <string>
 using namespace std;
 template<typename T, typename T1>
-class RBTree {
+class Map {
 public:
 	class Node 
 	{
@@ -21,7 +21,7 @@ public:
 		Node* right;
 	};
 
-	~RBTree()
+	~Map()
 	{
 		if (this->Root != NULL)
 			this->clear();
@@ -30,7 +30,7 @@ public:
 		TNULL = NULL;
 	}
 
-	RBTree(Node* Root = NULL, Node* TNULL = new Node(0)) :Root(Root), TNULL(TNULL) {}
+	Map(Node* Root = NULL, Node* TNULL = new Node(0)) :Root(Root), TNULL(TNULL) {}
 
 	void printTree()
 	{
