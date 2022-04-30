@@ -18,7 +18,7 @@ int main() {
 	cout << "Print tree after removing: " << endl;
 	bst.remove("E");
 	bst.printTree();
-	cout << "Clear the tree and print it." << endl;
+	cout << "Clear the tree." << endl;
 	cout << "Print result: " << endl;
 	bst.clear();
 	bst.printTree();
